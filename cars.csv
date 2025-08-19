@@ -1,0 +1,26 @@
+Car,Engine_Litre,Power_BHP,Torque_Nm,Weight_kg,Mileage_kmpl
+Hyundai Creta Petrol,1.5,115,144,1230,16.8
+Hyundai Creta Diesel,1.5,115,250,1350,21.4
+Tata Altroz Petrol,1.2,86,113,980,19.1
+Tata Altroz Diesel,1.5,90,200,1100,23.0
+Maruti WagonR Petrol,1.0,68,90,830,22.5
+Maruti WagonR 1.2 Petrol,1.2,83,113,855,21.5
+Honda City Petrol,1.5,121,145,1150,17.8
+Honda City Diesel,1.5,100,200,1200,24.1
+Kia Seltos Petrol,1.5,115,144,1245,16.5
+Kia Seltos Diesel,1.5,115,250,1355,21.0
+Mahindra XUV300 Petrol,1.2,110,200,1200,17.0
+Mahindra XUV300 Diesel,1.5,117,300,1300,20.1
+Toyota Glanza Petrol,1.2,90,113,910,21.0
+Suzuki Baleno Petrol,1.2,90,113,920,21.5
+Hyundai Venue Petrol,1.2,83,115,1085,18.2
+Hyundai Venue Diesel,1.5,100,240,1250,23.3
+Skoda Rapid Petrol,1.0,110,175,1112,18.9
+Volkswagen Polo Petrol,1.0,95,175,1015,18.2
+Ford EcoSport Petrol,1.5,122,149,1200,15.9
+Ford EcoSport Diesel,1.5,100,215,1290,21.7
+MG Hector Petrol,1.5,143,250,1700,14.2
+MG Hector Diesel,2.0,170,350,1800,16.6
+Jeep Compass Petrol,1.4,163,250,1560,14.1
+Jeep Compass Diesel,2.0,173,350,1650,17.3
+Nissan Magnite Petrol,1.0,100,160,939,20.0
