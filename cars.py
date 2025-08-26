@@ -1,4 +1,3 @@
-# Repo url is "https://github.com/SharadJ19/milage-ml-model"
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
@@ -11,16 +10,14 @@ data = pd.read_csv("cars.csv")
 categorical_cols = ["Make", "Fuel_Type", "Transmission", "Drivetrain"]
 numerical_cols = ["Weight_kg", "Engine_cc", "Wheel_Diameter_in", "Power_hp", "Cylinders"]
 
-
+#one hot
 data_encoded = pd.get_dummies(data[categorical_cols], drop_first=True)  # drop first to avoid dummy variable trap
 
 
 x = pd.concat([data[numerical_cols], data_encoded], axis=1) #axis 1 because horizontal concatenation
-
-
 y = data["Mileage_kmpl"]
 
-
+#split
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
 
@@ -34,7 +31,7 @@ print("MSE:", mean_squared_error(y_test, y_pred))
 print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
 print("R2 Score:", r2_score(y_test, y_pred))
 
-
+#input
 name = input("Enter the name of the car: ")
 make = input("Enter the make of the car: ")
 fuel = input("Enter fuel type (Petrol/Diesel): ")
